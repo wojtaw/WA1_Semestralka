@@ -20,15 +20,10 @@
     <script type="text/javascript" src="javascript/homepageTiles.js">
     </script>      
      
-  <title>
-              SlidesLive - Helping you record and spread knowledge
-                                        </title>
-
+  <title> SlidesLive - Helping you record and spread knowledge </title>
 </head>
 
 <body>
-
-    	
 	<div class="fixedHeader">
 		<div class="headerContent">
 			<div class="slidesLiveLogo"><a href="/SlidesLive_dev/web/app_dev.php/"><img src="/SlidesLive_dev/web/bundles/static/images/logo-header-beta.png" border="0" /></a><div class="logoBeta slidesLiveBlue">Beta</div></div>
