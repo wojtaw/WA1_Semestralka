@@ -24,17 +24,10 @@
 </head>
 
 <body>
-	<div class="fixedHeader">
-		<div class="headerContent">
-			<div class="slidesLiveLogo"><a href="/SlidesLive_dev/web/app_dev.php/"><img src="/SlidesLive_dev/web/bundles/static/images/logo-header-beta.png" border="0" /></a><div class="logoBeta slidesLiveBlue">Beta</div></div>
-            <div class="headerMenuWraper">
-                <a href="http://slideslive.com/SlidesLiveData/SL_Recorder/SL_AllPlatforms.zip" id="downloadButtonLink2" style="margin-right:30px; color:#FFF" class="headerMenu globalFont"  onClick="javascript: _gaq.push(['_trackPageview', '/appDownload/topMenu']);">Download Free App</a>               
-                <a href="/SlidesLive_dev/web/app_dev.php/tour" style="margin-right:30px;" class="headerMenu globalFont">How It Works</a>
-                            			<a href="/SlidesLive_dev/web/app_dev.php/login" style="display:inline;" class="headerMenu globalFont slidesLiveBlue">Login</a>
-                  				                        
-            </div>
-        </div>
-    </div>	
+
+<?php
+	require("siteHeader.php");
+?>
 	
     				
 		
@@ -44,8 +37,7 @@
 		
 
 		
-			
-        	  		<div class="headerTopSpace"></div>
+			<div class="headerTopSpace"></div>
     
   <div class="preloader"></div>
   <div class="websiteBackground"></div>  
@@ -432,18 +424,9 @@
       </div>
     </div>
   </div>  
-  
-  
-
-  
-                
-	<div class="siteFooter">
-                <a href="/SlidesLive_dev/web/app_dev.php/about" style="margin-right:30px;" class="headerMenu globalFont">About</a>	
-  		<div class="footerContent"><div class="footerText">&#169; 2012 SlidesLive.com. All rights reserved.</div></div>
-    </div>        
     
-        
-
-<div id="sfwdt508662f9989a3" style="display: none"></div><script type="text/javascript">/*<![CDATA[*/    (function () {        var wdt, xhr;        wdt = document.getElementById('sfwdt508662f9989a3');        if (window.XMLHttpRequest) {            xhr = new XMLHttpRequest();        } else {            xhr = new ActiveXObject('Microsoft.XMLHTTP');        }        xhr.open('GET', '/SlidesLive_dev/web/app_dev.php/_wdt/508662f9989a3', true);        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');        xhr.onreadystatechange = function(state) {            if (4 === xhr.readyState && 200 === xhr.status && -1 !== xhr.responseText.indexOf('sf-toolbarreset')) {                wdt.innerHTML = xhr.responseText;                wdt.style.display = 'block';            }        };        xhr.send('');    })();/*]]>*/</script>
+<?php
+	require("siteFooter.php");
+?>        
 </body>
 </html>
