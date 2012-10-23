@@ -3,30 +3,22 @@
 	  xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="google-site-verification" content="k6rQywy6tzc20h1fL1H7XlLoS2A1vX7mdGl46rbMG24" />
-	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic|Homenaje' rel='stylesheet' type='text/css'>  
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic|Homenaje' rel='stylesheet' type='text/css'>        
+    <link href="styles/general.css" rel="stylesheet" type="text/css">
+    <link href="styles/mainStyles.css" rel="stylesheet" type="text/css"/>
+    <link href="webImages/favicon-sl-1.png" rel="icon" type="image/png" />    
       
-        <link href="/SlidesLive_dev/web/bundles/general.css" rel="stylesheet" type="text/css">
-          <link href="/SlidesLive_dev/web/bundles/static/css/mainStyles.css" rel="stylesheet" type="text/css"/>	
-      
-  		<script type="text/javascript" src="/SlidesLive_dev/web/bundles/jquery-1.8.0.min.js">
-		</script>    
-		<script type="text/javascript" src="/SlidesLive_dev/web/bundles/googleAnalytics.js">
-		</script>  
-		<script type="text/javascript" src="/SlidesLive_dev/web/bundles/jquery.client.js">
-		</script>  		  		
-		<script type="text/javascript" src="/SlidesLive_dev/web/bundles/generalFunctions.js">
-		</script> 
-		<script type="text/javascript" src="/SlidesLive_dev/web/bundles/swfobject.js">
-		</script>  			 		  				
-          <script type="text/javascript" src="/SlidesLive_dev/web/bundles/static/javascript/homepageTiles.js">
+	<script type="text/javascript" src="javascript/jquery-1.8.0.min.js">
+    </script>    
+    <script type="text/javascript" src="javascript/jquery.client.js">
+    </script>  		  		
+    <script type="text/javascript" src="javascript/generalFunctions.js">
+    </script> 
+    <script type="text/javascript" src="javascript/swfobject.js">
+    </script>  			 		  				
+    <script type="text/javascript" src="javascript/homepageTiles.js">
     </script>      
-    
-  <style>
-      </style>  
-  
-        <link href="/SlidesLive_dev/web/bundles/favicon-sl-1.png" rel="icon" type="image/png" />
      
   <title>
               SlidesLive - Helping you record and spread knowledge
